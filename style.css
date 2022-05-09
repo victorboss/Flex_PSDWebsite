@@ -1,0 +1,237 @@
+body{
+    margin: 0;
+    background-image: url('images/background.png');
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+/***** Header Area *****/
+
+.header-area{
+    
+    background-color: #23232D;
+}
+.logo-area{
+    text-align: center;
+}
+.logo-area a img{
+    width: 70px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+.design-area {
+    text-align: center;
+    color: white;
+    margin-bottom: 70px;
+}
+.design-area h2{
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.design-area p{
+    color:#DEDEDF;
+    font-size: 15px;
+}
+.next-area {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.next-area a i{
+    font-size: 12px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+}
+
+/***** About Area *****/
+
+.about-area{
+    overflow: hidden;
+}
+.details,
+.passion h2{
+    text-align: center;
+}
+.upper,.bottom{
+    display: flex;
+    justify-content: center;
+}
+.same{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.same img{
+    width: 100%;
+}
+.same h3,
+.same h4{
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+.same h5{
+    font-size: 16px;
+}
+.same p{
+    font-size: 16px;
+}
+.details p:first-child{
+    font-size: 22px;
+}
+.details p:last-child{
+    font-size: 18px;
+}
+/***** Work Area *****/
+
+.work-area{
+    background-color: #23232D;
+    overflow: hidden;
+}
+.work-area h2{
+    text-align: center;
+    color: white;
+}
+.nav ul{
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    
+}
+.nav ul li{
+    margin-right: 25px; 
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 10px;
+}
+.nav ul li a:hover,
+.active{
+    border-bottom: 2px solid #7C77C9;
+    padding-bottom: 10px;
+}
+.same h3,
+.same h5{
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+.button,
+.button2{
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+.button a,
+.button2 a{
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #7B78C9;
+    background-color: #7B78C9;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+/***** Footer *****/
+
+.social-profiles,
+.copyright{
+    text-align: center;
+    overflow: hidden;
+}
+.social-profiles ul{
+    list-style: none;
+    text-align: center;
+}
+.social-profiles ul li{
+    display: inline;
+}
+.social-profiles ul li a{
+    display: inline-block;
+    margin-right: 20px;
+    color: #666666;
+    font-size: 30px;
+}
+
+@media all and (max-width:1000px){
+
+    .container{
+        width: 85%;
+    }
+    .details p:first-child{
+        font-size: 18px;
+    }
+    .details p:last-child{
+        font-size: 16px;
+    }
+    .same h3,
+    .same h4,
+    .same h5,
+    .same p{
+        font-size: 16px;
+    }
+
+    
+}
+@media all and (max-width:700px){
+
+    .container{
+        width: 95%;
+    }
+    .details p:first-child{
+        font-size: 15px;
+    }
+    .details p:last-child{
+        font-size: 13px;
+    }
+    .nav ul li{
+        margin-right: 16px;
+    }
+    .nav ul li a{
+        font-size: 13px;
+    }
+    .same h3,
+    .same h4,
+    .same h5,
+    .same p{
+        font-size: 13px;
+    }
+
+    
+}
+@media all and (max-width:550px){
+
+    .container{
+        width: 99%;
+    }
+    .details p:first-child{
+        font-size: 12px;
+    }
+    .details p:last-child{
+        font-size: 10px;
+    }
+    .nav ul li{
+        margin-right: 12px;
+    }
+    .nav ul li a{
+        font-size: 10px;
+    }
+    .same h3,
+    .same h4,
+    .same h5,
+    .same p{
+        font-size: 10px;
+    }
+
+    
+}
